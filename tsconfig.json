@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "ES2015",
+        "declaration": true,
+        "outDir": "./dist",
+        "allowSyntheticDefaultImports": true,
+        "noUncheckedIndexedAccess": true,
+        "noEmit": false
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
