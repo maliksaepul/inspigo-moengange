@@ -14,8 +14,6 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs --dts-resolve",
     "dev": "tsup src/index.ts --format cjs --dts-resolve --watch",
-    "prepublishOnly": "changesets version",
-    "release": "changesets version && changesets publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
